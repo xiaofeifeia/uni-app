@@ -62,7 +62,7 @@
 
 <style lang="scss">
 	.content {
-		background-color: #d8cacb;
+		background-color: #fff;
 
 		swiper {
 			width: 750rpx;
@@ -76,23 +76,22 @@
 		}
 
 		.nav {
-			height: 240rpx;
+			height: 180rpx;
 			width: 750rpx;
-			background-color: #fff;
 			display: flex;
 			justify-content: space-around;
 
 			.nav_box {
-				width: 145rpx;
-				height: 150rpx;
+				width: 120rpx;
+				height: 130rpx;
 				text-align: center;
 
 				.nav_img {
-					margin: 15rpx auto;
-					width: 100%;
-					height: 140rpx;
+					margin: 10rpx auto;
+					width: 100rpx;
+					height: 100rpx;
 					background-color: #b1191a;
-					border-radius: 70rpx;
+					border-radius: 50rpx;
 				}
 
 				text {
@@ -103,15 +102,16 @@
 		}
 
 		.hot_goods {
+			margin-top: 5rpx;
 			text {
 				display: block;
-				height: 80rpx;
-				background-color: #fff;
+				height: 70rpx;
 				font-size: 30rpx;
+				border-top: 2px solid #C0C0C0;
+				border-bottom: 4px solid #C0C0C0;
 				text-align: center;
-				line-height: 80rpx;
+				line-height: 70rpx;
 				color: #f56566;
-				margin: 5rpx 0 10rpx 0rpx;
 				letter-spacing: 20rpx;
 			}
 		}
