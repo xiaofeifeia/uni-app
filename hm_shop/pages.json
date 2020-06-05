@@ -11,7 +11,9 @@
         }
         ,{
             "path" : "pages/goods/goods",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText":"商品列表"
+			}
         }
         ,{
             "path" : "pages/member/member",
@@ -20,6 +22,12 @@
         ,{
             "path" : "pages/news/news",
             "style" : {}
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" : {
+			   "navigationBarTitleText":"联系我们"
+			}
         }
     ],
 	"globalStyle": {

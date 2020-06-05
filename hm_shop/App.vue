@@ -14,4 +14,6 @@
 
 <style>
 	/*每个页面公共css */
+	@import url("./static/fonts/iconfont.css");
+	@import url("./style/base.css");
 </style>

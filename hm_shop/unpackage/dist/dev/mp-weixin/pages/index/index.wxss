@@ -56,23 +56,26 @@
   height: 100rpx;
   background-color: #b1191a;
   border-radius: 50rpx;
+  color: #fff;
+  line-height: 100rpx;
 }
 .content .nav .nav_box text {
   font-size: 28rpx;
   color: #333333;
 }
 .content .hot_goods {
+  width: 100%;
   margin-top: 5rpx;
 }
-.content .hot_goods text {
+.content .hot_goods .title {
   display: block;
-  height: 70rpx;
+  height: 80rpx;
   font-size: 30rpx;
-  border-top: 2px solid #C0C0C0;
-  border-bottom: 4px solid #C0C0C0;
+  border-top: 1px solid #C0C0C0;
+  border-bottom: 1px solid #C0C0C0;
   text-align: center;
-  line-height: 70rpx;
+  line-height: 80rpx;
   color: #f56566;
-  letter-spacing: 20rpx;
+  letter-spacing: 30rpx;
 }
 

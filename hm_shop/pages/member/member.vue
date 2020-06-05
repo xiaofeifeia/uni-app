@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		会员
 	</view>
 </template>
 

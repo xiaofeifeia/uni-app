@@ -5,44 +5,49 @@
 				<image src="../../static/banner.png"></image>
 			</swiper-item>
 			<swiper-item>
-				<image src="../../static/banner.png"></image>
+				<image src="../../static/banner2.jpg" mode="aspectFill"></image>
 			</swiper-item>
 		</swiper>
 		<view class="nav">
-			<view class="nav_box">
-				<view class="nav_img">
+			<navigator url="../goods/goods" class="nav_box" hover-class="navigator-hover">
+				<view class="nav_img iconfont icon-ziyuan">
 
 				</view>
 				<text>黑马超市</text>
-			</view>
-			<view class="nav_box">
-				<view class="nav_img">
+			</navigator>
+			<navigator url="../contact/contact" class="nav_box" hover-class="navigator-hover">
+				<view class="nav_img iconfont icon-tupian">
 
 				</view>
 				<text>联系我们</text>
-			</view>
-			<view class="nav_box">
-				<view class="nav_img">
+			</navigator>
+			<navigator url="../goods/goods" class="nav_box" hover-class="navigator-hover">
+				<view class="nav_img iconfont icon-guanyuwomen">
 
 				</view>
 				<text>社区图片</text>
-			</view>
-			<view class="nav_box">
-				<view class="nav_img">
+			</navigator>
+			<navigator url="../goods/goods" class="nav_box" hover-class="navigator-hover">
+				<view class="nav_img iconfont icon-shipin">
 
 				</view>
 				<text>学习视频</text>
-			</view>
+			</navigator>
 		</view>
 		<view class="hot_goods">
-			<text>推荐商品</text>
+			<text class="title">推荐商品</text>
+			<good-list></good-list>
 		</view>
 	</view>
 
 </template>
 
 <script>
+	import goodList from "../../components/good-list/good-list.vue";
 	export default {
+		components:{
+			goodList
+		},
 		data() {
 			return {
 				"indicatorDots": true,
@@ -56,6 +61,7 @@
 		},
 		methods: {
 
+			
 		}
 	}
 </script>
@@ -92,6 +98,8 @@
 					height: 100rpx;
 					background-color: #b1191a;
 					border-radius: 50rpx;
+					color: #fff;
+					line-height: 100rpx;
 				}
 
 				text {
@@ -102,17 +110,18 @@
 		}
 
 		.hot_goods {
+			width: 100%;
 			margin-top: 5rpx;
-			text {
+			.title {
 				display: block;
-				height: 70rpx;
+				height: 80rpx;
 				font-size: 30rpx;
-				border-top: 2px solid #C0C0C0;
-				border-bottom: 4px solid #C0C0C0;
+				border-top: 1px solid #C0C0C0;
+				border-bottom: 1px solid #C0C0C0;
 				text-align: center;
-				line-height: 70rpx;
+				line-height: 80rpx;
 				color: #f56566;
-				letter-spacing: 20rpx;
+				letter-spacing: 30rpx;
 			}
 		}
 	}

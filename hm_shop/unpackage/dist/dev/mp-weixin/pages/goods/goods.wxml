@@ -1,1 +1,1 @@
-<view></view>
+<view class="data-v-68f75e15"><good-list vue-id="576f0adc-1" class="data-v-68f75e15" bind:__l="__l"></good-list><view hidden="{{!(isBottom)}}" class="bottomClass data-v-68f75e15">---我是有底线的---</view></view>

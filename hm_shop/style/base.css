@@ -1,0 +1,21 @@
+view,
+text,
+nevigator,
+input,
+image,
+swiper,
+swiper-item,
+scroll-view,
+page {
+	/* 微信中不支持*通配符 */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+page{
+	font-size: 28rpx;
+}
+image{
+	display: block;
+}
